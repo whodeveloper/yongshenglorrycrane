@@ -6,15 +6,18 @@
 	</head>
 
 	<body>
-		<div class = "fullwrap">
-			<div class = "header">
-				<?php include ("include/header.php");?>
-			</div>
-			<div class = "navbar">
-				<?php include("include/navbar.php");?>
+		<div class = "full_wrap">
+			<div class = "exception_wrap">
+				<div class = "header">
+					<?php include ("include/header.php");?>
+				</div>
+
+				<div class = "navbar">
+					<?php include("include/navbar.php");?>
+				</div>
 			</div>
 
-			<div class = "maincontent">
+			<div class = "main_content">
 			</div>
 		</div>
 
