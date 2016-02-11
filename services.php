@@ -18,16 +18,19 @@
 			</div>
 
 			<div class = "main_content">
-				<div class = "crane_images">
-				</div>
 
-				<div class = "crane_images">
+				<div class = services>
+					<h3>We specialize in the following services</h3>
+					<p>
+					- Lorry Crane Service (10 to 75 tons c/w fly jib)<br />
+					- Machinery Transportation<br />
+					- Relocation of Machinery Within Premises<br />
+					- Stuffing & Unstuffing of Container<br />
+					- Supply Lifting Crews
+					</p>
 				</div>
-
-				<div class = "crane_images">
-				</div>
+				
 			</div>
-			
 		</div>
 
 		<div class = "footer">
@@ -35,8 +38,5 @@
 		</div>
 	</body>
 </html>
-
-
-
 
 

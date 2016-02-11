@@ -19,7 +19,7 @@ body{
 }
 
 .full_wrap{
-	min-height: 100%;
+	min-height: 100%; /*Important to use min height instead of height*/
 }
 
 .exception_wrap{
@@ -31,7 +31,7 @@ body{
 .header{
 	height: 70px;
 	padding: 20px;
-	background-color: #747474;
+	background-color: #5d8aa8;
 }
 
 .logo{
@@ -41,7 +41,7 @@ body{
 
 .logo img{
 	max-width: 100%;
-    height: auto;
+    height: auto;	
 }
 /************************************
 			Navigation Bar
@@ -49,16 +49,16 @@ body{
 .navbar{
 	height: 30px;
 	padding:10px;
-	margin-top: 3px;
-	background-color: #747474;
+	margin: 3px 0px 0px 0px;
+	background-color: #5d8aa8;
 	line-height: 30px;
 	text-align: center;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 ul li{
 	display: inline-block;
-	margin-right:20px;
+	margin:0px 20px 0px 0px;
 }
 
 ul li a{
@@ -66,17 +66,46 @@ ul li a{
 	color: #ffffff;
 	font-size: 16pt;
 }
+
+.underline_hover {
+	display: inline-block;
+	-webkit-transform: translateZ(0);
+	overflow: hidden;
+}
+
+.underline_hover:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #eeffff;
+	height: 3px;
+	border-radius: 3px;
+	transform: translateY(4px);
+	transition-duration: 0.3s;
+}
+
+.underline_hover:hover:before, .underline_hover:focus:before, .underline_hover:active:before {
+	transform: translateY(0);
+}
 /************************************
 			  Footer
 *************************************/
 .footer{
 	height: 150px;
-	padding: 20px;
-	background-color: #747474;
+	padding: 40px;
+	background-color: #5d8aa8;
+	font-family: 'Lato', sans-serif;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #f0ffff;
 }
 
 .left_footer_wrapper{
-	margin-top: 20px;
+	margin: 20px 0px 0px 0px;
 	float: left;
 }
 
@@ -84,69 +113,144 @@ ul li a{
 	width: 250px;
 	color: #f0ffff;
 	font-size: 15pt;
-	font-family: 'Lato', sans-serif;
 }
 
 .footer_phone img{
-	margin-right: 5px;
+	margin:0px 5px 0px 0px;
 	line-height: 50px;
+}
+
+.footer_phone p{
+	line-height: 35px;
 }
 
 .footer_mail{
 	width: 280px;
 	color: #f0ffff;
-	margin-top: 50px;
+	margin: 50px 0px 0px 0px;
 	font-size: 15pt;
-	font-family: 'Lato', sans-serif;
 }
 
 .footer_mail img{
-	margin-right: 10px;
+	margin: 0px 10px 0px 0px;
 }
 
 .footer_location{
 	width: 220px;
-	margin-top: 40px;
+	margin: 40px 0px 0px 0px;
 	float: right;
 	color: #f0ffff;
 	font-size: 15pt;
 	font-family: 'Lato', sans-serif;
 }
+
 .footer_location img{
-	margin-top: 19px;
-	margin-right: 20px;
+	margin: 19px 20px 0px 0px;
 }
 /************************************
 			index.php
 *************************************/
+.crane_images{
+	width: 800px;
+	height: 400px;
+	margin: 50px auto 50px auto;
+	background-color: #99a5b2;
+}
+/************************************
+			services.php
+*************************************/
 .services{
-	width: 380px;
+	width: 600px;
+	margin: 50px auto 50px auto;
 	border-radius: 5px;
-	margin: 10px 0px 0px 10px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .services h3{
 	padding: 10px;
 	color: #ffffff; 
-	background: #0099ff;
+	background-color: #e30b5d;
 	text-align: center;
-	font-family: 'Lato', sans-serif;
 }
 
 .services p{
-	margin-top: 3px;
+	margin: 3px 0px 0px 0px;
 	padding: 10px 0px 10px 10px;
 	line-height: 30px;
 	color: #f0ffff;
 	background-color: #89cff0;
 	font-size: 14pt;
-	font-family: 'Lato', sans-serif;
+}
+/************************************
+			portfolio.php
+*************************************/
+.portfolio{
+	margin: 50px 50px 50px 50px;
+	padding: 0px 0px 50px 0px;
+	background-color: #747474;
+	text-align: center;
+}
+
+.portfolio h3{
+	margin: 0px 0px 40px 0px;
+	padding: 10px;
+	color: #f0ffff;
+	background-color: #909070;
+	border-radius: 5px;
+	font-size: 16pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+.portfolio img{
+	padding: 5px 10px 0px 0px;
+}
+/************************************
+			about_us.php
+*************************************/
+.founder{
+	width: 1000px;
+	height: 500px;
+	margin: 50px auto 50px auto;
+	background-color: #747474;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+
+.founder h3{
+	padding: 10px;
+	color: #ffffff;
+	background-color: #843729;
+}
+
+.founder img{
+	width: 300px;
+	margin: 20px 10px 0px 10px;
+}
+
+.founder p{
+	margin: 20px 10px 0px 30px;
+	font-size: 11pt;
+	line-height: 20px;
+}
+
+.founder p::first-letter{
+	font-size: 32pt;
+	color: #ff1a1a;
+	padding: 0px;
 }
 /************************************
 			contact.php
 *************************************/
+.google_map{
+	width: 650px;
+	height: 450px;
+	margin: 50px auto 50px auto;
+	font-family: 'Lato', sans-serif;
+}
 
-/************************************
-			about_us.php
-*************************************/
-
+.google_map h3{
+	padding: 10px;
+	color: #ffffff;
+	background-color: #0099ff;
+	text-align: left;
+}
