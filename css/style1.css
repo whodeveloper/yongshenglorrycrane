@@ -15,7 +15,11 @@ html{
 body{
 	width: 100%;
 	height: 100%;
-	background-color: #e7feff;
+	background-color: #ffffff;
+}
+
+body.index{
+	background-color: #006a6a;
 }
 
 .full_wrap{
@@ -29,13 +33,13 @@ body{
 			Header & Logo
 *************************************/
 .header{
-	height: 70px;
+	height: 40px;
 	padding: 20px;
 	background-color: #5d8aa8;
 }
 
 .logo{
-	margin-top:15px;
+	margin-top:5px;
 	text-align: center;
 }
 
@@ -47,13 +51,14 @@ body{
 			Navigation Bar
 *************************************/
 .navbar{
-	height: 30px;
-	padding:10px;
-	margin: 3px 0px 0px 0px;
+	height: 24px;
+	margin: 0px auto 0px auto;
+	padding: 10px;
 	background-color: #5d8aa8;
-	line-height: 30px;
+	line-height: 25px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
+	border-top: 2px solid #08ffff;
 }
 
 ul li{
@@ -64,7 +69,7 @@ ul li{
 ul li a{
 	text-decoration:none;
 	color: #ffffff;
-	font-size: 16pt;
+	font-size: 13pt;
 }
 
 .underline_hover {
@@ -150,53 +155,176 @@ ul li a{
 /************************************
 			index.php
 *************************************/
-.crane_images{
-	width: 800px;
-	height: 400px;
-	margin: 50px auto 50px auto;
-	background-color: #99a5b2;
+.index_projects_parents{
+	width: 1370px;
+	height: 2000px;
+	margin: 30px auto 30px auto;
+	background-color: #006a6a;
+	position: relative;
+	overflow: hidden;
+}
+
+.index_projects_parents h3{
+	width: 1200px;
+	margin: 15px auto 0px auto;
+	padding: 10px;
+	color: #ffffff;
+	border-top: 1px solid #ef6;
+	border-bottom: 1px solid #ef6;
+	text-align: center;
+	font-size: 12pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+.index_projects_parents img{
+	height: auto;
+}
+
+.index_projects_1{
+	position: absolute;
+	top: 70px;	
+	left: 60px;
+}
+
+.index_projects_1 h2{
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-size: 13pt;
+	font-family: 'Lato', sans-serif;
+}
+
+.index_projects_1 h2 span{
+	color: #ffffff;
+	letter-spacing: 1px;
+	background: rgba(0,0,0,0.7);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	padding: 10px;
+}
+
+.index_projects_2{
+	position: absolute;
+	top: 80px;
+	left: 485px;
+}
+
+.index_projects_2 h2{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	font-size: 13pt;
+	font-family: 'Lato', sans-serif;
+}
+
+.index_projects_2 h2 span{
+	padding: 10px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	background: rgba(0,0,0,0.7);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.index_projects_3{
+	position: absolute;
+	top: 70px;
+	left: 910px;
+}
+
+.index_projects_3 h2{
+	width: 500px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-size: 13pt;
+	font-family: 'Lato', sans-serif;
+}
+
+.index_projects_3 h2 span{
+	padding: 10px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	background: rgba(0,0,0,0.7);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.index_projects_4{
+	position: absolute;
+	top: 390px;
+	left: 300px;
+}
+
+.index_projects_4 h2{
+	width: 400px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	font-size: 13pt;
+	font-family: 'Lato', sans-serif;
+}
+
+.index_projects_4 h2 span{
+	padding: 10px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	background: rgba(0,0,0,0.7);
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+.crane_range{
+	margin: 800px auto 0px auto;
+	width: 1300px;
+	color: #ffffff;
+	background-color: #006a6a;
+	font-family: 'Raleway', sans-serif;
+}
+
+.crane_range h3{
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #ef6;
+	border-bottom: 1px solid #ef6;
+}
+
+.crane_range p{
+	padding: 10px 0px 10px 10px;
+	line-height: 30px;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.achievement{
+	height: 1000px;
+	background-color: #e65;
+	margin: 100px 0px 0px 0px;
 }
 /************************************
 			services.php
 *************************************/
-.services{
-	width: 600px;
-	margin: 50px auto 50px auto;
-	border-radius: 5px;
-	font-family: 'Raleway', sans-serif;
-}
 
-.services h3{
-	padding: 10px;
-	color: #ffffff; 
-	background-color: #e30b5d;
-	text-align: center;
-}
-
-.services p{
-	margin: 3px 0px 0px 0px;
-	padding: 10px 0px 10px 10px;
-	line-height: 30px;
-	color: #f0ffff;
-	background-color: #89cff0;
-	font-size: 14pt;
-}
 /************************************
 			portfolio.php
 *************************************/
 .portfolio{
-	margin: 50px 50px 50px 50px;
+	width: 1000px;
+	margin: 50px auto 50px auto;
 	padding: 0px 0px 50px 0px;
-	background-color: #747474;
+	background-color: #73a9c2;
 	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .portfolio h3{
 	margin: 0px 0px 40px 0px;
 	padding: 10px;
 	color: #f0ffff;
-	background-color: #909070;
-	border-radius: 5px;
+	background-color: #73a9c2;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	font-size: 16pt;
 	font-family: 'Raleway', sans-serif;
 }
@@ -209,17 +337,21 @@ ul li a{
 *************************************/
 .founder{
 	width: 1000px;
-	height: 500px;
+	height: 950px;
 	margin: 50px auto 50px auto;
-	background-color: #747474;
-	color: #ffffff;
+	padding: 10px;
+	background-color: #395f5f;
+	border-radius: 10px;
 	font-family: 'Raleway', sans-serif;
 }
 
 .founder h3{
-	padding: 10px;
+	width: 500px;
+	margin: 0px auto 0px auto;
+	padding: 20px;
 	color: #ffffff;
-	background-color: #843729;
+	text-align: center;
+	font-size: 15pt;
 }
 
 .founder img{
@@ -230,21 +362,55 @@ ul li a{
 .founder p{
 	margin: 20px 10px 0px 30px;
 	font-size: 11pt;
-	line-height: 20px;
+	line-height: 22px;
 }
 
 .founder p::first-letter{
-	font-size: 32pt;
+	font-size: 50pt;
 	color: #ff1a1a;
-	padding: 0px;
+	padding: 0px 0px 0px 40px;
+}
+
+.founder p{
+	margin: 35px 0px 0px 0px;
+	color: #ffffff;
+}
+
+.founder span{
+	padding: 0px 5px 0px 0px;
+	float: right;
+	font-size: 13pt;
 }
 /************************************
 			contact.php
 *************************************/
+/*.contact_form{
+	width: 650px;
+	height: 500px;
+	margin: 50px auto 100px auto;
+	background-color: #f0f8ff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.contact_form h3{
+	padding: 10px;
+	color: #efefef;
+	background-color: #359293;
+	text-align: center;
+	font-size: 18pt;
+	line-height: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-family: 'Lato', sans-serif;
+}*/
+
 .google_map{
 	width: 650px;
 	height: 450px;
-	margin: 50px auto 50px auto;
+	margin: 50px auto 100px auto;
+	/*border-top-left-radius: 10px;*/
+	/*border-top-right-radius: 10px;	*/
 	font-family: 'Lato', sans-serif;
 }
 
@@ -252,5 +418,9 @@ ul li a{
 	padding: 10px;
 	color: #ffffff;
 	background-color: #0099ff;
-	text-align: left;
+	line-height: 20px;
+	text-align: center;
+	/*border-top-left-radius: 10px;*/
+	/*border-top-right-radius: 10px;*/
+	font-size: 13pt;
 }

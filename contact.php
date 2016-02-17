@@ -18,6 +18,16 @@
 			</div>
 
 			<div class = "main_content">
+
+<!-- 				<div class = "contact_form">
+					<h3>Get In Touch</h3>
+
+					<form>
+						<label>My Name</label>
+						<input name = "name" placeholder = "John Smith">
+					</form>
+				</div> -->
+
 				<div class = "google_map">
 					<h3>Our Location</h3>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.3076530442995!2d103
