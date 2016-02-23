@@ -6,20 +6,33 @@
 }
 
 html{
-	width: 100%;
+	min-width: 1300px; /*Change to 1300px instead of 100% for non-responsive*/
 	height: 100%;
-	/*min-width: 1300px;*/
-	/* Use Responsive or Not to use Responsive ?*/
 }
 
 body{
 	width: 100%;
 	height: 100%;
-	background-color: #ffffff;
 }
 
 body.index{
-	background-color: #006a6a;
+	background-color:#737373;
+}
+
+body.services{
+	background-color: #91a3b0;
+}
+
+body.portfolio_background_color{
+	background-color: #5d8aa8;
+}
+
+body.about{
+	background-color: #395f5f;
+}
+
+body.contact_background_color{
+	background-color: #737373;
 }
 
 .full_wrap{
@@ -27,38 +40,38 @@ body.index{
 }
 
 .exception_wrap{
-	background-color: #ffffff;
+	width: 100%;
+	height: 55px;
+	padding: 10px 0px 10px 0px;
+	background-color: #ff0000;
 }
 /************************************
 			Header & Logo
 *************************************/
 .header{
-	height: 40px;
-	padding: 20px;
-	background-color: #5d8aa8;
+	float: left;
 }
 
 .logo{
-	margin-top:5px;
+	margin-top: 10px;
 	text-align: center;
 }
 
 .logo img{
 	max-width: 100%;
     height: auto;	
+    margin: 0px 0px 0px 15px;
 }
 /************************************
 			Navigation Bar
 *************************************/
 .navbar{
-	height: 24px;
 	margin: 0px auto 0px auto;
 	padding: 10px;
-	background-color: #5d8aa8;
-	line-height: 25px;
+	line-height: 35px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	border-top: 2px solid #08ffff;
+	float: right;
 }
 
 ul li{
@@ -69,7 +82,8 @@ ul li{
 ul li a{
 	text-decoration:none;
 	color: #ffffff;
-	font-size: 13pt;
+	font-size: 12pt;
+	transition: all 0.5s ease;
 }
 
 .underline_hover {
@@ -84,7 +98,7 @@ ul li a{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #eeffff;
+	background-color: #ef6;
 	height: 3px;
 	border-radius: 3px;
 	transform: translateY(4px);
@@ -100,7 +114,7 @@ ul li a{
 .footer{
 	height: 150px;
 	padding: 40px;
-	background-color: #5d8aa8;
+	background-color: #c19a6b;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -130,7 +144,7 @@ ul li a{
 }
 
 .footer_mail{
-	width: 280px;
+	width: 300px;
 	color: #f0ffff;
 	margin: 50px 0px 0px 0px;
 	font-size: 15pt;
@@ -157,20 +171,21 @@ ul li a{
 *************************************/
 .index_projects_parents{
 	width: 1370px;
-	height: 2000px;
+	height: auto;
 	margin: 30px auto 30px auto;
-	background-color: #006a6a;
+	background-color: #737373;
 	position: relative;
 	overflow: hidden;
 }
 
 .index_projects_parents h3{
-	width: 1200px;
+	width: 800px;
 	margin: 15px auto 0px auto;
 	padding: 10px;
 	color: #ffffff;
-	border-top: 1px solid #ef6;
-	border-bottom: 1px solid #ef6;
+	border-top: 2px solid #ef6;
+	border-bottom: 2px solid #ef6;
+	border-radius: 15px;
 	text-align: center;
 	font-size: 12pt;
 	font-family: 'Raleway', sans-serif;
@@ -190,7 +205,7 @@ ul li a{
 	position: absolute;
 	top: 50px;
 	left: 0px;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -213,7 +228,7 @@ ul li a{
 	position: absolute;
 	top: 40px;
 	left: 0px;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -237,7 +252,7 @@ ul li a{
 	position: absolute;
 	top: 50px;
 	left: 0px;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -261,7 +276,7 @@ ul li a{
 	position: absolute;
 	top: 50px;
 	left: 0px;
-	font-size: 13pt;
+	font-size: 12pt;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -275,62 +290,135 @@ ul li a{
 }
 
 .crane_range{
-	margin: 800px auto 0px auto;
+	margin: 770px auto 0px auto;
 	width: 1300px;
 	color: #ffffff;
-	background-color: #006a6a;
 	font-family: 'Raleway', sans-serif;
 }
 
 .crane_range h3{
-	padding: 10px;
 	text-align: center;
-	border-top: 1px solid #ef6;
-	border-bottom: 1px solid #ef6;
+	font-size: 13pt;
+}
+
+h3.crane_range_offer{
+	border-top: none;
+	border-bottom: none;
 }
 
 .crane_range p{
-	padding: 10px 0px 10px 10px;
+	width: 800px;
+	margin: 0 auto;
+	padding: 5px 0px 10px 10px;
 	line-height: 30px;
-	font-size: 14pt;
+	font-size: 13pt;
+	text-align: center;
+	border-bottom: 1px solid #ef6;
+}
+
+h3.crane_range_offer{
+	border-top: none;
+	border-bottom: none;
+}
+
+.achievement_wrap{
+	width: 1300px;
+	height: auto;
+	margin: 60px auto;
+	overflow: hidden;
+	transition: 0.8s;
+	/*background-color: #e65;*/
+}
+
+.achievement_photos{
+	width: 300px;
+	height: 450px;
+	margin: 15px 0px 0px 17px;
+	border: 2px solid #e90;
+	display: inline-block;
 	text-align: center;
 }
 
-.achievement{
-	height: 1000px;
-	background-color: #e65;
-	margin: 100px 0px 0px 0px;
+.achievement_photos img{
+	width: 300px;	
+	height: 450px;
+	object-fit: cover;
+}
+
+.achievement_photos_landscape_wrap{
+	margin: 80px 0px 0px 0px;
+}
+
+.achievement_photos_landscape{
+	width: 405px;
+	height: 300px;
+	margin: 20px 0px 5px 18px;
+	display: inline-block;
+}
+
+.achievement_photos_landscape img{
+	width: 405px;	
+	height: 300px;
+	margin: 0px 0px 0px 0px;
+	border: 3px solid #e90;
+	object-fit: cover;
 }
 /************************************
 			services.php
 *************************************/
+.services_list{
+	width: 700px;
+	height: 425px;
+	margin: 80px auto 0px auto;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+}
 
+.services_list fieldset{
+	width: 600px;
+	height: 400px;
+	margin: 50px auto 0px auto;
+	line-height: 35px;
+	background-color: #8c92ac;
+	color: #ffffff;
+	border: 3px solid #ffffff
+}
+
+.services_list legend{
+	width: 150px;
+	margin: 0px 0px 0px 20px;
+	padding: 10px;
+	background-color: #734f96;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 14pt;
+	color: #ffffff;
+}
 /************************************
 			portfolio.php
 *************************************/
 .portfolio{
 	width: 1000px;
-	margin: 50px auto 50px auto;
-	padding: 0px 0px 50px 0px;
-	background-color: #73a9c2;
+	height: 700px;
+	margin: 60px auto 60px auto ;
 	text-align: center;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
 }
 
 .portfolio h3{
-	margin: 0px 0px 40px 0px;
+	margin: 0px 0px 55px 0px;
 	padding: 10px;
 	color: #f0ffff;
-	background-color: #73a9c2;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	font-size: 16pt;
+	font-size: 15pt;
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	border-top: 2px solid #ef6;
+	border-bottom: 2px solid #ef6;
+	border-radius: 15px;
 }
 
 .portfolio img{
-	padding: 5px 10px 0px 0px;
+	width: auto;
+	margin: 0px 8px 10px 0px;
 }
 /************************************
 			about_us.php
@@ -384,31 +472,10 @@ ul li a{
 /************************************
 			contact.php
 *************************************/
-/*.contact_form{
-	width: 650px;
-	height: 500px;
-	margin: 50px auto 100px auto;
-	background-color: #f0f8ff;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
-
-.contact_form h3{
-	padding: 10px;
-	color: #efefef;
-	background-color: #359293;
-	text-align: center;
-	font-size: 18pt;
-	line-height: 20px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	font-family: 'Lato', sans-serif;
-}*/
-
 .google_map{
-	width: 650px;
+	width: 1000px;
 	height: 450px;
-	margin: 50px auto 100px auto;
+	margin: 80px auto 100px auto;
 	/*border-top-left-radius: 10px;*/
 	/*border-top-right-radius: 10px;	*/
 	font-family: 'Lato', sans-serif;
@@ -417,7 +484,7 @@ ul li a{
 .google_map h3{
 	padding: 10px;
 	color: #ffffff;
-	background-color: #0099ff;
+	background-color: #ff1a1a;
 	line-height: 20px;
 	text-align: center;
 	/*border-top-left-radius: 10px;*/

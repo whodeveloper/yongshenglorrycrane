@@ -5,7 +5,7 @@
 		<?php include ("include/head.php");?>
 	</head>
 
-	<body>
+	<body class = "about">
 		<div class = "full_wrap">
 			<div class = "exception_wrap">
 				<div class = "header">
@@ -21,7 +21,7 @@
 				<div class = "founder">
 					<h3>The Founder of Yongsheng Lorrycrane</h3>
 
-					<img src = "images/selected/founder.jpg" width = "300px" height "400" alt = "Mr Lim & Mrs Lim" align = "left">
+					<!-- <img src = "images/selected/founder.jpg" width = "300px" height "400" alt = "Mr Lim & Mrs Lim" align = "left"> -->
 					<p>
 					Founder of Yongsheng Lorrycrane Mr Lim Khiam Hock may not be highly educated, but his grit in running his
 					building and construction materials transport business is certainly both impressive and commendable.

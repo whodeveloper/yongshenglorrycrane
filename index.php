@@ -20,7 +20,7 @@
 			<div class = "main_content">
 
 					<div class = "index_projects_parents">
-						<h3>We Specialize in the following services</h3>
+						<h3>We Specialize In The Following Services</h3>
 							
 							<div class = "index_projects_1">
 								<img src = "images/projects/work_0.jpg" alt = "work" width = "400px" height = "500px"> 
@@ -33,7 +33,7 @@
 							</div>
 
 							<div class = "index_projects_3">
-								<img src = "images/projects/work_17.jpg" alt = "work" width = "400px" height = "600px">
+								<img src = "images/projects/work_26.jpg" alt = "work" width = "400px" height = "600px">
 								<h2><span>Relocation Of Machinery Within Premises</span></h2>
 							</div>
 
@@ -44,12 +44,103 @@
 							</div>
 			
 							<div class = "crane_range">
-								<h3>We Offer Lorrycrane with Flyjib From a Range Of</h3>
-								<p>10tonne | 20tonne | 25tonne | 35tonne | 40tonne | 45tonne | 55tonne | 75tonne<br /></p>
+								<h3 class = "crane_range_offer">We Offer Lorrycrane with Flyjib From a Range Of</h3>
+								<p>10tonne | 17tonne | 22tonne | 26tonne | 36tonne | 50tonne | 75tonne<br /></p>
 							</div>
 
-							<div class = "achievement">
-								<h3>Our Achievement</h3>
+							<div class = "achievement_wrap">
+								<h3 id = "achievement_section">Our Achievement</h3>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_2_2_1.jpg" alt = "work">
+ 								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_3_2.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_23.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_19.jpg" alt = "work">
+ 								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_5.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_7.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_21.jpg" alt = "work">
+								</div>
+<!-- 
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_16_2.jpg" alt = "work">
+								</div> -->
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_34.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_36.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_29.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_28.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos">
+									<img src = "images/projects/work_32.jpg" alt = "work">
+								</div>
+
+								<div class = "achievement_photos_landscape_wrap">
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_22.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_25.jpg" alt = "work">
+									</div>
+		
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_20.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_13.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_8.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_27.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_35.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_30.jpg" alt = "work">
+									</div>
+
+									<div class = "achievement_photos_landscape">
+										<img src = "images/projects/work_31.jpg" alt = "work">
+									</div>
+
+								</div>
 							</div>
 					</div>
 			</div>
