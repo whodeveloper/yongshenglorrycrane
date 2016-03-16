@@ -21,9 +21,9 @@
 
 					<div class = "index_projects_parents">
 						<h3>We Specialize In The Following Services</h3>
-							
+
 							<div class = "index_projects_1">
-								<img src = "images/projects/work_0.jpg" alt = "work" width = "400px" height = "500px"> 
+								<img src = "images/projects/work_0.jpg" alt = "work" width = "400px" height = "500px">
 								<h2><span>&nbsp&nbsp&nbsp&nbspMachinery Transportation&nbsp&nbsp&nbsp&nbsp</span></h2>
 							</div>
 
@@ -42,7 +42,7 @@
 								<h2><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorrycrane Services&nbsp&nbsp&nbsp&nbsp&nbsp
 										  &nbsp&nbsp&nbsp</span></h2>
 							</div>
-			
+
 							<div class = "crane_range">
 								<h3 class = "crane_range_offer">We Offer Lorrycrane with Flyjib From a Range Of</h3>
 								<p>10tonne | 17tonne | 22tonne | 26tonne | 36tonne | 50tonne | 75tonne<br /></p>
@@ -78,7 +78,7 @@
 								<div class = "achievement_photos">
 									<img src = "images/projects/work_21.jpg" alt = "work">
 								</div>
-<!-- 
+<!--
 								<div class = "achievement_photos">
 									<img src = "images/projects/work_16_2.jpg" alt = "work">
 								</div> -->
@@ -111,7 +111,7 @@
 									<div class = "achievement_photos_landscape">
 										<img src = "images/projects/work_25.jpg" alt = "work">
 									</div>
-		
+
 									<div class = "achievement_photos_landscape">
 										<img src = "images/projects/work_20.jpg" alt = "work">
 									</div>
