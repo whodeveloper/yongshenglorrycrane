@@ -28,7 +28,7 @@
 					Established in 2000, the company has been operating from Mr Lim's home until it recently moved to its factory
 					premises last year. Although the company was founded by both Mr Lim & Mr Tan, Mr Tan remained a "sleeping" partner
 					until 2002 when he came in to start working for the company.
-					<br /> <br /> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+					<br /> <br /> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					Despite having little experience, and knowledge of the building and construction industry at the beginning, Mr Lim knew
 					he needed to make a living and envisioned a better life for himself and his family. His reasoning for starting Yongsheng
 					Lorrycrane was simple: he saw the building and construction materials transport trade as vital and integral in Singapore.
@@ -37,7 +37,7 @@
 					When the company finally began making money, both directors were able to hire more workers and buy more vehicles to share the workload. With a more regular client base established over the first few years, the company could also concentrate less on their marketing efforts as their regular clients would refer their friends and other construction business to them. Today, the company has about 200 clients, of which a fair amount are regular and make consant use of Yongsheng Lorrycrane's services. Nonetheless,  Mr Lim acknowledges the the nature of his trade is extremely demanding. He shares that their working hours are higly irregular and revolve around their clients project schedules and deadlines. In such difficult times, he views his desire for a better life as a form of motivations that keeps him going. This philosophy also carries over into the way he treats his employees. He view them as friends and merely instructs them on their duties and job scopes, preferring not to micro-manage them.
 					<br /><br /> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					While it is diffucult to compete against larger companies who have the luxury of better finances and the best equipment and vehicles at their disposal, Mr Lim believes that his company offers better services than their competitors. He explains that he tries to help his clients to solve their work-related problems as much as possible by going the extra mile. Although Yongsheng Lorrycrane is still a relatively small company, Mr Lim has big dreams for its future. Given time, he hopes the company will be able to enter the logistics field in the future. As he continues to build his business, he remains both humble and realistic, and acknowledges the importance of hard work and perseverance in his endeavours.
-					<br /><br /><br />
+						<br /><br /><br />
 					<span><em> - Singapore Entrepreneurs Award 2014/2015</em></span>
 					</p>
 				</div>

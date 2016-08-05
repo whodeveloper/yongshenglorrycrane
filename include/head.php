@@ -1,5 +1,5 @@
 <!--Meta & Title-->
-<title>Yong Sheng Lorry Crane</title>
+<title>lol</title>
 <meta charset = "utf-8">
 <!-- CSS -->
 <link rel = "stylesheet" type = "text/css" href = "css/style1.css">
@@ -12,8 +12,3 @@
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-
-
-
-
-
